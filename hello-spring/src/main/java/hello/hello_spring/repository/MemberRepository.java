@@ -3,7 +3,10 @@ package hello.hello_spring.repository;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Repository;
+
 import hello.hello_spring.domain.Member;
+
 
 public interface MemberRepository {
     Member save(Member member); //저장소에 저장
