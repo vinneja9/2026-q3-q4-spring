@@ -7,7 +7,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
 import hello.hello_spring.domain.Member;
-import hello.hello_spring.repository.MemberRepository;
 import hello.hello_spring.service.MemberService;
 
 @SpringBootTest 
